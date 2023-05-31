@@ -1,0 +1,35 @@
+{
+    "AS_Button_b462db88a9f84591a8c83d0b9c18e6d3": {
+        "id": "AS_Button_b462db88a9f84591a8c83d0b9c18e6d3",
+        "type": "ACTION_SEQUENCE",
+        "name": "changeTextToTestButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__b087ea690aab45a287b87ee0611236f4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "ActionsExercise",
+            "widgetId": "testBtn",
+            "propertyName": "text",
+            "propertyValue": "Text changed !!!",
+            "itemKUID": "afdd2ccaf393401e8d5cfb8a43789d36",
+            "widgetKUID": "d7bd255be40641cd89280d3b8de1b8ce",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.testBtn"
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Button_j4ea02a228f948f1af5453b554624093": {
+        "id": "AS_Button_j4ea02a228f948f1af5453b554624093",
+        "type": "ACTION_SEQUENCE",
+        "name": "makeInvisibleTestBtn",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__jba145ce19b345038323f5ca28bed98f",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "ActionsExercise",
+            "widgetId": "testBtn",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "afdd2ccaf393401e8d5cfb8a43789d36",
+            "widgetKUID": "d7bd255be40641cd89280d3b8de1b8ce",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.testBtn"
+        }]
+    }
+}

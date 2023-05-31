@@ -1,0 +1,35 @@
+{
+    "AS_Button_d1fb76dcbc794c988d1c6825f7638001": {
+        "id": "AS_Button_d1fb76dcbc794c988d1c6825f7638001",
+        "type": "ACTION_SEQUENCE",
+        "name": "showAlert",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_j939ea4e4877464c8fdd8efd8d7024ff",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "Trigered Alert !!!!!",
+            "yesLabel": "Ok :)",
+            "alertMessage": "Alert is showed successfully ! ",
+            "messageType": "constant",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

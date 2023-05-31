@@ -1,0 +1,94 @@
+{
+    "AS_Button_d4ef1827338b411d8c407d6b462b49cd": {
+        "id": "AS_Button_d4ef1827338b411d8c407d6b462b49cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "SegmentExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5f0078c8493408e8666bd715207a435"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__b8142a1ad13e49389c08ad05a0b5863f",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "SegmentExercise",
+            "widgetId": "containerBlur",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "d5f0078c8493408e8666bd715207a435",
+            "widgetKUID": "f288d7ac46e247d891a1702022500484",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.containerBlur"
+        }, {
+            "id": "STYLE_ACTION_gf28fbf71c5943dfb62ae4156dbfe039",
+            "type": "STYLE_ACTION",
+            "itemType": "FORM",
+            "itemId": "SegmentExercise",
+            "widgetId": "containerBlur",
+            "itemKUID": "d5f0078c8493408e8666bd715207a435",
+            "widgetKUID": "f288d7ac46e247d891a1702022500484",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "backgroundColor": "00000000",
+                "opacity": 50
+            },
+            "config": {
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_NONE"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION_g6ea5c1edab9425bbbc704661928d743",
+            "animationId": "STYLE_ACTION_gf28fbf71c5943dfb62ae4156dbfe039",
+            "displayAnimationId": "STYLE_ACTION_gf28fbf71c5943dfb62ae4156dbfe039",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.containerBlur"
+        }, {
+            "id": "MOVE_ACTION_g6ea5c1edab9425bbbc704661928d743",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "SegmentExercise",
+            "widgetId": "containerDrawer",
+            "itemKUID": "d5f0078c8493408e8666bd715207a435",
+            "widgetKUID": "db6fcdd31ec8424bbd45fcd998a6b353",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0px",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "STYLE_ACTION_gf28fbf71c5943dfb62ae4156dbfe039",
+            "animationId": "MOVE_ACTION_g6ea5c1edab9425bbbc704661928d743",
+            "displayAnimationId": "MOVE_ACTION_g6ea5c1edab9425bbbc704661928d743",
+            "forkedPlatform": "all",
+            "parentId": "STYLE_ACTION_gf28fbf71c5943dfb62ae4156dbfe039",
+            "callbackType": "Callback",
+            "widgetPath": "this.view.containerDrawer"
+        }]
+    }
+}

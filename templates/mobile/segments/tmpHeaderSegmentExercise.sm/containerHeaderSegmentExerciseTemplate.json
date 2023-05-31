@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd3d2263bea8452f86311d4d25392171",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "titleHeaderSegmentExercise"
+    ],
+    "clipbounds": false,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "containerHeaderSegmentExerciseTemplateController"
+        }
+    },
+    "enablescrolling": true,
+    "friendlyName": "containerHeaderSegmentExerciseTemplate",
+    "id": "containerHeaderSegmentExerciseTemplate",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b50f6ebdf565492784a4ec7faaa0dcd0",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpHeaderSegmentExercise",
+    "pf": "tmpHeaderSegmentExercise",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

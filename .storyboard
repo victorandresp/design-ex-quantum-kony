@@ -1,0 +1,18 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "c197d48ce83d4e44bff52abd5b8f683f",
+                    "formName": "Calculator",
+                    "isStartupForm": true,
+                    "key": "c197d48ce83d4e44bff52abd5b8f683f",
+                    "loc": "8 24.7544921875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

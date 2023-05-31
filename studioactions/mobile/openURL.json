@@ -1,0 +1,25 @@
+{
+    "AS_Button_b422279738224f6bb2b9329bcf6d9e26": {
+        "id": "AS_Button_b422279738224f6bb2b9329bcf6d9e26",
+        "type": "ACTION_SEQUENCE",
+        "name": "openURL",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_a3d0037470134722a26575915d4dab5b",
+            "type": "OPEN_URL",
+            "url": "https://www.solucioneslaser.com/",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

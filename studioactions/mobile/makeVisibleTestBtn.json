@@ -1,0 +1,35 @@
+{
+    "AS_Button_efb6bdb9846b4b4f99f80c26f9dafffa": {
+        "id": "AS_Button_efb6bdb9846b4b4f99f80c26f9dafffa",
+        "type": "ACTION_SEQUENCE",
+        "name": "makeVisibleTestBtn",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d30ec97d2b6a428abd5e8390646f3972",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "ActionsExercise",
+            "widgetId": "testBtn",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "afdd2ccaf393401e8d5cfb8a43789d36",
+            "widgetKUID": "d7bd255be40641cd89280d3b8de1b8ce",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.testBtn"
+        }]
+    }
+}

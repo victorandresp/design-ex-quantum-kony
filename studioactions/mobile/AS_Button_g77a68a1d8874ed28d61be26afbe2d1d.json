@@ -1,0 +1,110 @@
+{
+    "AS_Button_g77a68a1d8874ed28d61be26afbe2d1d": {
+        "id": "AS_Button_g77a68a1d8874ed28d61be26afbe2d1d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "AnimationExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d84bb88376dc42008f14c94bcbd0d5d2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "AnimationExercise",
+            "widgetId": "btnSlave",
+            "itemKUID": "d84bb88376dc42008f14c94bcbd0d5d2",
+            "widgetKUID": "b8b041edb6a847e0b70463302238e195",
+            "wType": "Button",
+            "animationObject": {
+                "top": "50px",
+                "left": "50dp",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 2,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "displayAnimationId": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.btnSlave"
+        }, {
+            "id": "SCALE_ACTION_ifafd72e1d674ce49747bdc730df3686",
+            "type": "SCALE_ACTION",
+            "itemType": "FORM",
+            "itemId": "AnimationExercise",
+            "widgetId": "btnSlave",
+            "itemKUID": "d84bb88376dc42008f14c94bcbd0d5d2",
+            "widgetKUID": "b8b041edb6a847e0b70463302238e195",
+            "wType": "Button",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "120dp",
+                "height": "100dp"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 2,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "animationId": "SCALE_ACTION_ifafd72e1d674ce49747bdc730df3686",
+            "displayAnimationId": "SCALE_ACTION_ifafd72e1d674ce49747bdc730df3686",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "callbackType": "Callback",
+            "widgetPath": "this.view.btnSlave"
+        }, {
+            "id": "ROTATE_ACTION_i8bb4517b08648f0953d5561ea7aa824",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "AnimationExercise",
+            "widgetId": "btnSlave",
+            "itemKUID": "d84bb88376dc42008f14c94bcbd0d5d2",
+            "widgetKUID": "b8b041edb6a847e0b70463302238e195",
+            "wType": "Button",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "120"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 2,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION_cd765dc801de495da735916463377ad1",
+            "animationId": "ROTATE_ACTION_i8bb4517b08648f0953d5561ea7aa824",
+            "displayAnimationId": "ROTATE_ACTION_i8bb4517b08648f0953d5561ea7aa824",
+            "forkedPlatform": "all",
+            "parentId": "SCALE_ACTION_ifafd72e1d674ce49747bdc730df3686",
+            "callbackType": "Callback",
+            "widgetPath": "this.view.btnSlave"
+        }]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "AS_Button_cd9d282964624f71976ae1cac9996d62": {
+        "id": "AS_Button_cd9d282964624f71976ae1cac9996d62",
+        "type": "ACTION_SEQUENCE",
+        "name": "changeSknOnTestButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ActionsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "afdd2ccaf393401e8d5cfb8a43789d36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY___ffb3670cdde146809cfbbc5c33866a1e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "ActionsExercise",
+            "widgetId": "testBtn",
+            "propertyName": "skin",
+            "propertyValue": "sknButtonSignIn",
+            "itemKUID": "afdd2ccaf393401e8d5cfb8a43789d36",
+            "widgetKUID": "d7bd255be40641cd89280d3b8de1b8ce",
+            "skinKUID": "s4818a8a3c7844fcb86c11e809d12a77",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.testBtn"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___cf4c0bfde633436fbcbcfe814f80ddf7",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "ActionsExercise",
+            "widgetId": "testBtn",
+            "propertyName": "skin",
+            "propertyValue": "sknButtonSignInFocus",
+            "itemKUID": "afdd2ccaf393401e8d5cfb8a43789d36",
+            "widgetKUID": "d7bd255be40641cd89280d3b8de1b8ce",
+            "skinKUID": "s2241c58085048fab804e01bfa2a3f52",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.testBtn"
+        }]
+    }
+}
